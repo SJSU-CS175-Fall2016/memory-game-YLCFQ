@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="rule_title"><b>RULES of the GAME</b></string>
+    <string name="rules">"  1. The user is shown 20 tiles. Hidden below these tiles are 10 random images (use your own) each repeated twice.
+        2. The user can touch on any two tiles. Touching on a tile will show the image.
+        3. If the two tiles have matching images, they disappear (Use a check or something to indicate it's already matched). The user gets a point.
+        4. If the two tiles do NOT have matching images, they flip over to being tiles again (flip animation not required).
+        5. Hitting the back soft key while playing will take the user back to the first screen (happens automatically). Trying to play should restore the playing activity to the previous state (may need some state handling)." </string>
+</resources>
